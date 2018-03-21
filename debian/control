@@ -12,6 +12,7 @@ Package: python3-noise
 Architecture: all
 Section: python
 Depends: ${misc:Depends}, ${python3:Depends}
+Provides: ${python3:Provides}
 Description: Native-code and shader implementations of Perlin noise for Python
  This package is designed to give you simple to use, fast functions for
  generating Perlin noise in your Python programs. Perlin noise is famously
