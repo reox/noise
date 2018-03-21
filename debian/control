@@ -1,0 +1,21 @@
+Source: noise
+Section: python
+Maintainer: Sebastian Bachmann
+Build-Depends: debhelper (>= 10), python3
+Standards-Version: 3.9.2
+X-Python-Version: >= 3.5
+Homepage: https://github.com/caseman/noise
+Vcs-Git: https://github.com/caseman/noise
+Vcs-Browser: https://github.com/caseman/noise
+
+Package: python3-noise
+Architecture: all
+Section: python
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: Native-code and shader implementations of Perlin noise for Python
+ This package is designed to give you simple to use, fast functions for
+ generating Perlin noise in your Python programs. Perlin noise is famously
+ called the "salt" of procedural generation, as it adds considerable flavor in
+ its application. Noise is commonly used for imparting realism in textures,
+ animation and other procedural content generation -- placement of hairs,
+ heights of mountains, density of forests, waving of a flag, etc. etc..
