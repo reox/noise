@@ -1,5 +1,6 @@
 Source: noise
 Section: python
+Priority: optional
 Maintainer: Sebastian Bachmann
 Build-Depends: debhelper (>= 10),
     python3-all,
